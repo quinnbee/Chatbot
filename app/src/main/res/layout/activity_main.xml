@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="128dp"
+        android:text="ADMISSION COUNSELING"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="596dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="173dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="247dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="431dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/EnterContact"
+        android:layout_width="159dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="259dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="419dp"
+        android:text="Contact"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/enterName"
+        android:layout_width="164dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="579dp"
+        android:text="Enter Name"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
